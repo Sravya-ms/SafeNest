@@ -1,0 +1,8 @@
+{
+  "name": "SafeNest — Verified Rental & Tenant Management System",
+  "description": "Full-stack rental marketplace and tenant management system with verified properties, digital agreements, rent tracking, and maintenance resolution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# SafeNest: Verified Rental & Tenant Management System
 
-# Run and deploy your AI Studio app
+SafeNest is a rental marketplace that makes renting safer and easier to manage
+for tenants, property owners and admins.
 
-This contains everything you need to run your app locally.
+## Features
+- **Role-based access:** separate dashboards for tenants, owners and admins
+- **Verified listings:** admins review and approve properties and users
+- **Rental requests:** tenants apply and owners accept or reject
+- **Digital agreements:** rental agreements are generated and accepted online
+- **Rent payments:** payment tracking with a rent history chart
+- **Maintenance requests:** tenants raise issues and owners resolve them
+- **Reviews and ratings:** feedback on properties
+- **In-app chat:** direct messaging between tenants and owners
+- **Admin tools:** user management and government report generation
+- **Notifications:** updates on requests, payments and maintenance
 
-View your app in AI Studio: https://ai.studio/apps/5025917f-27b8-4bf7-8125-b1f87efc1975
+## Tech Stack
+React 19, TypeScript, Vite, Tailwind CSS, Recharts, Motion, Lucide Icons.
+Data is stored in the browser with localStorage.
 
 ## Run Locally
+npm install
+npm run dev
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Live Demo
+https://SafeNest.vercel.app
